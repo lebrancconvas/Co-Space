@@ -1,6 +1,18 @@
 <template>
   <div>
-    <h1>Login Laew Krub</h1>
+    <p class="text-center">Login</p>
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text" id="basic-addon1">Username</span>
+      </div>
+      <input
+        type="text"
+        class="form-control"
+        placeholder="Enter Your Username"
+        aria-label="Username"
+        aria-describedby="basic-addon1"
+      />
+    </div>
   </div>
 </template>
 
