@@ -1,7 +1,9 @@
 <template>
   <div>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">Co Space</a>
+      <router-link to="/"
+        ><a class="navbar-brand" href="#">Co Space</a></router-link
+      >
       <button
         class="navbar-toggler"
         type="button"

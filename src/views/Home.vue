@@ -1,6 +1,5 @@
 <template>
   <div class="home">
-    <Navbar />
     <img alt="Vue logo" src="../assets/desk.png" />
     <HelloWorld />
   </div>
