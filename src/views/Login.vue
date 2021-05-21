@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p class="text-center">Login</p>
+    <p class="text-center h2">Login</p>
     <div class="input-group mb-3">
       <div class="input-group-prepend">
         <span class="input-group-text" id="basic-addon1">Username</span>
@@ -26,6 +26,7 @@
         aria-describedby="basic-addon1"
       />
     </div>
+    <button type="button" class="btn btn-primary">Login</button>
   </div>
 </template>
 
