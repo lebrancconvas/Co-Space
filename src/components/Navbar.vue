@@ -18,9 +18,9 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <router-link to="/"
+            <router-link to="/list"
               ><a class="nav-link" href="#"
-                >Home <span class="sr-only">(current)</span></a
+                >List <span class="sr-only">(current)</span></a
               ></router-link
             >
           </li>
