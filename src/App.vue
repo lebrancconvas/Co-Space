@@ -1,6 +1,7 @@
 <template>
   <Navbar />
   <router-view />
+  <Copyright />
 </template>
 
 <style>
@@ -29,9 +30,11 @@
 <script lang="ts">
 import { Options, Vue } from "vue-class-component";
 import Navbar from "@/components/Navbar.vue";
+import Copyright from "@/components/Copyright.vue";
 @Options({
   components: {
     Navbar,
+    Copyright,
   },
 })
 export default class App extends Vue {}
