@@ -1,7 +1,12 @@
 <template>
   <div>
-    <button type="button" id="signup" class="btn btn-warning">Sign Up</button>
-    <button type="button" id="login" class="btn btn-primary">Log in</button>
+    <router-link to="/signup">
+      <button type="button" id="signup" class="btn btn-warning">Sign Up</button>
+    </router-link>
+
+    <router-link to="/login">
+      <button type="button" id="login" class="btn btn-primary">Log in</button>
+    </router-link>
   </div>
 </template>
 
