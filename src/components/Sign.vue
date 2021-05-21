@@ -1,6 +1,6 @@
 <template>
   <div>
-    <button type="button" id="signup" class="btn btn-secondary">Sign Up</button>
+    <button type="button" id="signup" class="btn btn-warning">Sign Up</button>
     <button type="button" id="login" class="btn btn-primary">Log in</button>
   </div>
 </template>
