@@ -27,15 +27,14 @@
 }
 </style>
 
-<script lang="ts">
-import { Options, Vue } from "vue-class-component";
+<script>
 import Navbar from "@/components/Navbar.vue";
 import Copyright from "@/components/Copyright.vue";
-@Options({
-  components: {
+export default {
+  name: "App",
+  component: {
     Navbar,
     Copyright,
   },
-})
-export default class App extends Vue {}
+};
 </script>
